@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/drawable/backgroujd_confirmed.xml" value="0.2794871794871795" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/drawable/background_active.xml" value="1.0928571428571427" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/drawable/background_deaths.xml" value="0.2794871794871795" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/drawable/background_recoverd.xml" value="1.0928571428571427" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/activity_main.xml" value="0.1933876811594203" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/customlist.xml" value="0.26721014492753625" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_blank.xml" value="0.2586050724637681" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_cities_view.xml" value="0.25" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_screen01.xml" value="0.18704710144927536" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_screen02.xml" value="0.18704710144927536" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_screen03.xml" value="0.18704710144927536" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_splash.xml" value="0.1933876811594203" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/fragment_view_pager.xml" value="0.1933876811594203" />
+        <entry key="..\:/PracticeProjects/CovidTracker/app/src/main/res/layout/rowlayout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

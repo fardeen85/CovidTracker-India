@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.covidtracker.Fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_screenFragment01"
+            app:destination="@id/screenFragment01"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenFragment01"
+        android:name="com.example.covidtracker.onboarding.ScreenFragment01"
+        android:label="fragment_screen01"
+        tools:layout="@layout/fragment_screen01" >
+        <action
+            android:id="@+id/action_screenFragment01_to_screenFragment02"
+            app:destination="@id/screenFragment02" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenFragment02"
+        android:name="com.example.covidtracker.onboarding.ScreenFragment02"
+        android:label="fragment_screen02"
+        tools:layout="@layout/fragment_screen02" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.covidtracker.Fragments.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.covidtracker.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_citiesViewFragment"
+            app:destination="@id/citiesViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/citiesViewFragment"
+        android:name="com.example.covidtracker.Fragments.CitiesViewFragment"
+        android:label="fragment_cities_view"
+        tools:layout="@layout/fragment_cities_view" />
+</navigation>
