@@ -6,10 +6,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/app_logo"
+        android:icon="@mipmap/covidtracker_launcher_icon"
         android:label="@string/app_name"
         android:usesCleartextTraffic="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/covidtracker_launcher_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidTracker">
         <activity
